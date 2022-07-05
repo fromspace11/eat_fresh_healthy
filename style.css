@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.block {
+    display: flex;
+}
+
+.flexible {
+    width: 50%;
+    margin: 3%;
+}
+
+.flexible img {
+    width: 100%;
+}
+
+#color {
+    color: rgb(6, 201, 201);
+}
+
+.male {
+    width: 50%;
+    margin-top: 3%;
+}
+
+.female {
+    width: 30%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.male_text {
+    margin-left: 5%;
+    margin-right: 0;
+    margin-top: 10%;
+
+}
+
+.bg_image {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+}
+
+.female_text {
+    margin-top: 10%;
+    margin-top: 15%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(15, 221, 221), rgb(197, 245, 245));
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+.middle_text {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.food_box {
+    outline: solid 1px white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px grey;
+    padding: 30px;
+
+}
+
+.food_box img {
+    border-radius: 20px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px 1px 15px grey;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.last {
+    text-align: center;
+    padding: 10px;
+    line-height: 0.2;
+}
+
+.end_line {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
